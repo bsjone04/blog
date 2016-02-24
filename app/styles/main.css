@@ -6,8 +6,9 @@
 }
 .border {
 	width:900px;
-	
-border: solid 1px;}
+	center;
+border: solid 5px;
+border-bottom: 0;}
 }
 
 body {
