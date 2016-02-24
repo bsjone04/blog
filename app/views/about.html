@@ -4,7 +4,7 @@
 <div class="border"><p> A basic overview of Node JS as I understand it is a way to employ 'push' technology to create real time web applications over web sockets.
 Ryan Dahl in the video shows examples of NodeJS' capabilities such as implementing code to a server without actually changing your core code. 
 Dahl also shows examples of creating a web server in your command line that and explaining how it node is effective as long as it it non blocking code 
-that may or may not be effective in the long run. Below are some advantages of NodeJS as compared to standard Javascript.
+that may or may not be effective in the long run. Below are some advantages of NodeJS with Javascript as compared to standard Java.
 
 </p>
 </div>
@@ -18,3 +18,15 @@ that may or may not be effective in the long run. Below are some advantages of N
 <br />
 <br />
 <h3><u>Disadvantages of NodeJS</u></h3>
+<li>If one Node.Js request is slow, then everything slows down</li>
+<li>Does not have as solid of a foundation of Java just yet but is getting there</li>
+<br />
+<br />
+<br />
+<h3><u>Node has a Non-Blocking IO</u></h3>
+<br />
+<h4>How this is different then an Asynchronous IO:</h4>
+<li>Allows for concurrent processing of multiple requests</li>
+<li>Schedules a callback when the event has occured instead of waiting in a pending state</li>
+<li>Can handle requests from thousands of open sockets with a single thread concurrently <br />
+    by sequencing your js logic in a single stream of execution</li>
